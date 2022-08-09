@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Rock WoW", "Sentinel")
+local Window = Library.CreateLib("REN HUB", "Sentinel")
 local Tab = Window:NewTab("AutoFarm")
 local Section = Tab:NewSection("Boss")
 local Section = Tab:NewSection("If you want to choose a boss, re-game")
