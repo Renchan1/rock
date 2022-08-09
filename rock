@@ -452,6 +452,10 @@ Section:NewButton("Factory Island", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-749.794739, 525.681274, 4772.05371, -0.324272752, -3.01846015e-08, 0.945963621, -4.43699903e-08, 1, 1.66989746e-08, -0.945963621, -3.6557374e-08, -0.324272752)
 end)
 --
+Section:NewButton("Afk Island", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3095.91748, 26440.3809, 3427.43066, 0.994334817, 2.66321827e-08, 0.106293365, -2.90350375e-08, 1, 2.10583746e-08, -0.106293365, -2.40253062e-08, 0.994334817)
+end)
+--
 Section:NewButton("Kokowa Island", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2126.71509, 1637.02332, 507.383575, -0.143551514, -4.60071767e-08, 0.989642859, 5.45341443e-08, 1, 5.43990559e-08, -0.989642859, 6.1778394e-08, -0.143551514)
 end)
