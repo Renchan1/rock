@@ -17,8 +17,8 @@ _G.AutoLV = s
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
-local CFrameEnd = game:GetService("Workspace").Shanks.HumanoidRootPart.CFrame * CFrame.new(5,2,9)
-local Time = 0.5
+local CFrameEnd = game:GetService("Workspace").Shanks.HumanoidRootPart.CFrame * CFrame.new(0,1,5)
+local Time = 0.8
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
@@ -61,8 +61,8 @@ _G.AutoLV = f
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
-local CFrameEnd = game:GetService("Workspace")["florentino Boss"].HumanoidRootPart.CFrame * CFrame.new(5,2,9)
-local Time = 0.5
+local CFrameEnd = game:GetService("Workspace")["florentino Boss"].HumanoidRootPart.CFrame * CFrame.new(0,1,5)
+local Time = 0.8
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
@@ -106,8 +106,8 @@ _G.AutoLV = r
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
-local CFrameEnd = game:GetService("Workspace")["Roger Boss"].HumanoidRootPart.CFrame * CFrame.new(5,2,9)
-local Time = 0.5
+local CFrameEnd = game:GetService("Workspace")["Roger Boss"].HumanoidRootPart.CFrame * CFrame.new(0,1,5)
+local Time = 0.8
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
@@ -151,8 +151,8 @@ _G.AutoLV = r
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
-local CFrameEnd = game:GetService("Workspace")["Monkey D Bacon"].HumanoidRootPart.CFrame * CFrame.new(5,2,9)
-local Time = 0.5
+local CFrameEnd = game:GetService("Workspace")["Monkey D Bacon"].HumanoidRootPart.CFrame * CFrame.new(0,1,5)
+local Time = 0.8
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
@@ -196,8 +196,8 @@ _G.AutoLV = r
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
-local CFrameEnd = game:GetService("Workspace")["Boss  dungeon Red"].HumanoidRootPart.CFrame * CFrame.new(5,2,9)
-local Time = 0.5
+local CFrameEnd = game:GetService("Workspace")["Boss  dungeon Red"].HumanoidRootPart.CFrame * CFrame.new(0,1,5)
+local Time = 0.8
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
@@ -242,8 +242,8 @@ _G.AutoLV = r
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
-local CFrameEnd = game:GetService("Workspace")["Boss  dungeon Blue"].HumanoidRootPart.CFrame * CFrame.new(5,2,9)
-local Time = 0.5
+local CFrameEnd = game:GetService("Workspace")["Boss  dungeon Blue"].HumanoidRootPart.CFrame * CFrame.new(0,1,5)
+local Time = 0.8
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
@@ -287,8 +287,8 @@ _G.AutoLV = r
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
-local CFrameEnd = game:GetService("Workspace").Kokowa.HumanoidRootPart.CFrame * CFrame.new(5,2,9)
-local Time = 0.5
+local CFrameEnd = game:GetService("Workspace").Kokowa.HumanoidRootPart.CFrame * CFrame.new(0,1,5)
+local Time = 0.8
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
