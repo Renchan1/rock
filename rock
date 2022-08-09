@@ -12,7 +12,14 @@ _G.AutoLV = s
         pcall(function()
             if _G.AutoLV then
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Shanks.HumanoidRootPart.CFrame * CFrame.new(0,0,6)
+local players = game:GetService("Players")
+local plr = players.LocalPlayer
+local tween = game:GetService("TweenService")
+local CFrameEnd = game:GetService("Workspace").Shanks.HumanoidRootPart.CFrame * CFrame.new(5,4,9)
+local Time = 1.5
+local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+tween:Play()
+tween.Completed:Wait(E)
             end
         end)
        end)
