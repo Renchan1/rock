@@ -241,7 +241,7 @@ _G.AutoLV = r
         pcall(function()
             if _G.AutoLV then
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Kokowa.HumanoidRootPart.CFrame * CFrame.new(0,0,6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Kokowa.HumanoidRootPart.CFrame * CFrame.new(0,-5,5)
             end
         end)
        end)
@@ -316,7 +316,7 @@ end
 end)
 ---
 local Tab = Window:NewTab("Settings")
-local Section = Tab:NewSection("Settingsw")
+local Section = Tab:NewSection("Settings")
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
 	Library:ToggleUI()
 end)
