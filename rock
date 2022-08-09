@@ -193,7 +193,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Wo
     end)
 end)  
 --Dungeon Blue
-Section:NewToggle("Dungeon Red", "", function(r)
+Section:NewToggle("Dungeon Blue", "", function(r)
 
 _G.AutoLV = r
  
