@@ -16,7 +16,7 @@ local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local tween = game:GetService("TweenService")
 local CFrameEnd = game:GetService("Workspace").Shanks.HumanoidRootPart.CFrame * CFrame.new(3,1,8)
-local Time = 1.5
+local Time = 0.7
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait(E)
