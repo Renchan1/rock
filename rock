@@ -1,10 +1,11 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Rock WoW", "Sentinel")
+local Window = Library.CreateLib("REN HUB", "Sentinel")
 local Tab = Window:NewTab("AutoFarm")
 local Section = Tab:NewSection("Boss")
-Section:NewToggle("Shanks", "", function(a)
+local Section = Tab:NewSection("If you want to choose a boss, re-game")
+Section:NewToggle("Shanks", "", function(s)
 
-_G.AutoLV = a
+_G.AutoLV = s
  
     spawn(function()
        game:GetService("RunService").RenderStepped:Connect(function()
@@ -39,9 +40,199 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Wo
         end)
     end)
 end)
+-- florentino
+Section:NewToggle("Florentino", "", function(f)
 
+_G.AutoLV = f
+ 
+    spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["florentino Boss"].HumanoidRootPart.CFrame * CFrame.new(0,0,6)
+            end
+        end)
+       end)
+    end)
+
+   spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+            game:GetService'VirtualUser':CaptureController()
+            game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+            end
+        end)
+       end)
+    end)
+
+
+    spawn(function()
+        game:GetService("RunService").Heartbeat:Connect(function()
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") and _G.AutoLV then
+                setfflag("HumanoidParallelRemoveNoPhysics", "False")
+                setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+                game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+            end
+        end)
+    end)
+end)   
+--Roger
+Section:NewToggle("Roger", "", function(r)
+
+_G.AutoLV = r
+ 
+    spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Roger Boss"].HumanoidRootPart.CFrame * CFrame.new(0,0,6)
+            end
+        end)
+       end)
+    end)
+
+   spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+            game:GetService'VirtualUser':CaptureController()
+            game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+            end
+        end)
+       end)
+    end)
+
+
+    spawn(function()
+        game:GetService("RunService").Heartbeat:Connect(function()
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") and _G.AutoLV then
+                setfflag("HumanoidParallelRemoveNoPhysics", "False")
+                setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+                game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+            end
+        end)
+    end)
+end)   
+--Luffy
+Section:NewToggle("Luffy", "", function(r)
+
+_G.AutoLV = r
+ 
+    spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Monkey D Bacon"].HumanoidRootPart.CFrame * CFrame.new(0,0,6)
+            end
+        end)
+       end)
+    end)
+
+   spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+            game:GetService'VirtualUser':CaptureController()
+            game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+            end
+        end)
+       end)
+    end)
+
+
+    spawn(function()
+        game:GetService("RunService").Heartbeat:Connect(function()
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") and _G.AutoLV then
+                setfflag("HumanoidParallelRemoveNoPhysics", "False")
+                setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+                game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+            end
+        end)
+    end)
+end)   
+--Dungeon Red
+Section:NewToggle("Dungeon Red", "", function(r)
+
+_G.AutoLV = r
+ 
+    spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Boss  dungeon Red"].HumanoidRootPart.CFrame * CFrame.new(0,0,6)
+            end
+        end)
+       end)
+    end)
+
+   spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+            game:GetService'VirtualUser':CaptureController()
+            game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+            end
+        end)
+       end)
+    end)
+
+
+    spawn(function()
+        game:GetService("RunService").Heartbeat:Connect(function()
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") and _G.AutoLV then
+                setfflag("HumanoidParallelRemoveNoPhysics", "False")
+                setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+                game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+            end
+        end)
+    end)
+end)  
+--Dungeon Blue
+Section:NewToggle("Dungeon Red", "", function(r)
+
+_G.AutoLV = r
+ 
+    spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace")["Boss  dungeon Blue"].HumanoidRootPart.CFrame * CFrame.new(0,0,6)
+            end
+        end)
+       end)
+    end)
+
+   spawn(function()
+       game:GetService("RunService").RenderStepped:Connect(function()
+        pcall(function()
+            if _G.AutoLV then
+            game:GetService'VirtualUser':CaptureController()
+            game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+            end
+        end)
+       end)
+    end)
+
+
+    spawn(function()
+        game:GetService("RunService").Heartbeat:Connect(function()
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") and _G.AutoLV then
+                setfflag("HumanoidParallelRemoveNoPhysics", "False")
+                setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+                game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+            end
+        end)
+    end)
+end)  
+--AutoEquip
 local Tab = Window:NewTab("AutoEquip")
-local Section = Tab:NewSection("Auto Equip")
+local Section = Tab:NewSection("Auto Equip PC")
 
 local Weaponlist = {}
 local Weapon = nil
@@ -67,3 +258,21 @@ end)
 end
 end
 end)
+--
+
+local Section = Tab:NewSection("Auto Equip Mobile")
+
+Section:NewToggle("Auto Equip Sickle Awken", " ", function(a)
+AutoEquiped = a
+end)
+spawn(function()
+Weapon = "Sickle Awken"
+while wait() do
+if AutoEquiped then
+pcall(function()
+game.Players.LocalPlayer.Character.Humanoid:EquipTool(game:GetService("Players").LocalPlayer.Backpack:FindFirstChild(Weapon))
+end)
+end
+end
+end)
+---
